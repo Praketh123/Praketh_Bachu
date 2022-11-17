@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praketh Bachu</title>
+    <link rel="icon" href="whitebglogo.png" >
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/880eb7a366.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header"> Home</a></li>
+                    <li><a href="#about"> About</a></li>
+                    <li><a href="#Project"> Projects</a></li>
+                    <li><a href="#contact"> Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h3> <span>Hey</span> There <i class="fa-solid fa-handshake"></i></h3>
+                <h1>I'am<span> Praketh </span>Bachu</h1>
+                <p>and this is my personal website</p>
+                <a href="PrakethBachu-Resume.pdf" download>Download Resume</a>
+            </div>
+        </div>
+    </div>
+                <!--------------------About section -------------------> 
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="about_img.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1><span>About</span> Me <i class="fa-solid fa-user-graduate"></i></h1>
+                    <p class="about-para"> Hello! My name is Praketh Bachu. I'm a recent grad from CVR College of Engineering. I'm on the lookout for an
+                         opportunity in the IT Sector to begin my career as a Software Engineer. I'm a dedicated and a hardworking individual who enjoys 
+                         working with different types of people and coming up with solutions to difficult problems.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('hobbies')">Hobbies</p>
+                    </div> 
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Technologies: </span><br> HTML<br> CSS<br> Java Script</li>
+                            <li><span>Programming languages: </span><br>C Programming<br>JAVA<br>Python<br>Data Structures</li>
+                            <li><span>Web Design: </span><br> WordPress</li>
+                        </ul>
+                    </div>   
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>School: </span><br> Name: Gitanjali Devashray<br>CGPA: 8.2<br>Pass out year: 2016</li>
+                            <li><span>Intermediate: </span><br>Name: Sri Chaitanya Junior College<br>Percentage: 87%<br>Pass out year: 2018</li>
+                            <li><span>B.Tech: </span><br>Name: CVR College of Engineering<br>CGPA: 7.45<br>Pass out year: 2022</li>
+                        </ul>
+                    </div>  
+                    <div class="tab-contents" id="hobbies">
+                        <ul>
+                            <li><span>Sports: </span><br>Basketball <br> Cricket <br> Football</li>
+                            <li><span>Product/Food Photography: </span><br> 
+                            <p> To view sample's, <a href="https://praketh123.github.io/gallery.github.io/">CLICK HERE</a></p>
+                            </li>
+                            <li><span>Editing:</span><br>Lightroom<br>Photoshop<br>PicsArt</li>
+                        </ul>
+                    </div>   
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------------------Project section -------------------> 
+    <div class="portfolio" id="Project">
+        <div class="container">
+            <h1 id="project-heading">My <span>Projects</span> <i class="fa-solid fa-code"></i></h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="SalonDeStyle_picture.png" alt="">
+                    <div class="layer">
+                        
+                        <p>Click below to know more</p>
+                        <a href="https://praketh123.github.io/SalondeStyle.github.io/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>    
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="tictactoe_picture.png" alt="">
+                    <div class="layer">
+                        
+                        <p>Click below to have some fun</p>
+                        <a href="https://praketh123.github.io/Tic-Tac-Toe/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------------------Contact section -------------------> 
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contactleft">
+                    <h1 id ="contact-heading"><span>Contact</span> Me <i class="fa-regular fa-address-card"></i></h1>
+                    <p id = "contact-para"><i class="fa-solid fa-paper-plane"></i><a href= "" >praketh2000@gmail.com</a></p>
+                    <p id="contact-para"><i class="fa-solid fa-phone"></i> +91 8106721849</p>
+                    
+                    <div class="contactright">
+                        
+                        <a href="https://www.linkedin.com/in/praketh-bachu-3425561a7/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Praketh123"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/prakethbachu/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100004192923123"><i class="fa-brands fa-facebook"></i></a>                
+                    </div>   
+                    
+                    <a href="PrakethBachu-Resume.pdf" download id="resume">Download Resume</a>
+                </div>
+                <div class="upbtn">
+                    <a href="#header"><i class="fa-solid fa-circle-up"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="script.js"></script>    
+</body>
+</html>
